@@ -70,7 +70,17 @@ main{
     height: 450px;
     margin-bottom: 50px;
     background-color: white;
+    padding: 20px;
 }
+
+.container-80-grey{
+    display: flex;
+    height: 450px;
+    margin-bottom: 50px;
+    background-color: #F6F6F6;
+    padding: 20px;
+}
+
 
 .text{
     flex-basis: 40%;
@@ -93,7 +103,19 @@ img {
 .container-big> div{
     display: flex;
     justify-content: center;
+    background-color: #F6F6F6;
 }
+
+.text-big{
+
+    height: 100px;
+}
+
+.img-big{
+
+
+}
+
 
 footer>div{
     display: flex;
