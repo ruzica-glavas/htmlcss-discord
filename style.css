@@ -4,20 +4,63 @@ html{
     font-style: normal;
 }
 
+header{
+    padding: 50px;
+    background-color: #255EE9;
+}
+
 header>div.info-principali{
     display: flex;
     justify-content: space-between;
 }
 
 .info-principali{
-    height: 50px;
-    background-color:blue;
+    background-color: #255EE9;
 }
+
+.info-principali> .info-header{
+    height: 50px;
+    background-color:#255EE9;
+    display:flex;
+    color:white
+}
+
+.btn-accedi{
+    width: 5%;
+    border-radius:30px;
+}
+
 
 nav{
     height: 350px;
     justify-items: center;
+    color:white;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
+
+.btn-nav{
+
+}
+
+.scarica{
+    background-color: white;
+    color: black;
+    width: 40%;
+    border-radius:30px;
+}
+
+.browser{
+    background-color: black;
+    color: white;
+    width: 65%;
+    border-radius:30px;
+}
+
+
+
 
 main{
     width:80%;
