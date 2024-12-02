@@ -1,0 +1,63 @@
+html{
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header>div.info-principali{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-principali{
+    height: 50px;
+    background-color:blue;
+}
+
+nav{
+    height: 350px;
+    justify-items: center;
+}
+
+main{
+    width:80%;
+    margin: auto;
+}
+
+.container-80{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    flex-basis: 40%;
+    height: 40px;
+}
+
+.img{
+    flex-basis: 60%;
+    height: 40px;
+}
+
+.container-big> div{
+    display: flex;
+    justify-content: center;
+}
+
+footer>div{
+    display: flex;
+    height: 350px;
+    background-color: orange;
+    justify-content: space-around;
+}
+
+.general-info>div{
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: brown;
+}
